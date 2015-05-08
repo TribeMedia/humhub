@@ -1,0 +1,3 @@
+[submodule "protected/modules/products"]
+	path = protected/modules/products
+	url = git@github.com:TribeMedia/tribemedia-humhub-modules-products.git
