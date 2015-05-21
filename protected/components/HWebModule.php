@@ -73,7 +73,7 @@ class HWebModule extends CWebModule
         return array(
                 /*
                   'SpaceModuleBehavior' => array(
-                  'class' => 'application.modules_core.space.behaviors.SpaceModuleBehavior',
+                  'class' => 'application.modules.conference.behaviors.SpaceModuleBehavior',
                   ),
 
                   'UserModuleBehavior' => array(

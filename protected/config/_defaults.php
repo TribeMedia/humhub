@@ -20,7 +20,7 @@ return array(
             'showScriptName' => true,
             'rules' => array(
                 array(
-                    'class' => 'application.modules_core.space.components.SpaceUrlRule',
+                    'class' => 'application.modules.conference.components.SpaceUrlRule',
                     'connectionId' => 'db',
                 ),
                 array(
