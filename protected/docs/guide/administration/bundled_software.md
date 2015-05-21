@@ -2,7 +2,7 @@ Bundled Software / Libaries
 ===========================
 
 * Yii Framework (Core Framework) http://www.yiiframework.com/ (protected/vendors/yii/LICENSE)
-* Zend Framework (Lucene Index) http://framework.zend.com/ (protected/vendors/Zend/LICENSE.txt)
+* Zend Framework http://framework.zend.com/ (protected/vendors/Zend/LICENSE.txt, protected/vendors/Zend2/LICENSE.txt)
 * Code Igniter (Security Functions) http://ellislab.com/codeigniter
 * Yii Extensions (See /protected/extensions/)
 * Yii-Mail - http://www.yiiframework.com/extension/mail/
@@ -29,3 +29,5 @@ Bundled Software / Libaries
 * Cebe Markdown - https://github.com/cebe/markdown
 * Highlight.js - https://highlightjs.org/
 * Bootstrap Markdown - http://www.codingdrama.com/bootstrap-markdown/
+* JShrink - https://github.com/tedious/JShrink
+* CSSCompressor - http://www.yiiframework.com/extension/minifyclientscript/

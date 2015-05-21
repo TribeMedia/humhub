@@ -132,7 +132,7 @@ class Content extends CActiveRecord
         return array(
             'wallEntries' => array(self::HAS_MANY, 'WallEntry', 'content_id'),
             'space' => array(self::BELONGS_TO, 'Space', 'space_id'),
-            'user' => array(self::BELONGS_TO, 'User', 'user_id'),
+            'user' => array(self::BELONGS_TO, 'User', 'user_id', 'alias' => 'user'),
         );
     }
 
@@ -243,11 +243,6 @@ class Content extends CActiveRecord
         // delete also all wall entries
         foreach ($this->getWallEntries() as $entry) {
             $entry->delete();
-        }
-
-        // remove from search index
-        if ($this->object_model instanceof ISearchable) {
-            HSearch::getInstance()->deleteModel($this->getContentObject());
         }
 
         return parent::beforeDelete();
