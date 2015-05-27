@@ -32,6 +32,7 @@ return CMap::mergeArray($pre_config, array(
                 // Session specific settings
                 'session' => array(
                 ),
+
                 'user' => array(
                     // enable cookie-based authentication
                     'allowAutoLogin' => true,

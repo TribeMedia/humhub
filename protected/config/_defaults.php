@@ -20,7 +20,11 @@ return array(
             'showScriptName' => true,
             'rules' => array(
                 array(
-                    'class' => 'application.modules.conference.components.SpaceUrlRule',
+                    'class' => 'application.modules_core.space.components.SpaceUrlRule',
+                    'connectionId' => 'db',
+                ),
+                array(
+                    'class' => 'application.modules.rooms.components.RoomUrlRule',
                     'connectionId' => 'db',
                 ),
                 array(
