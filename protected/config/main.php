@@ -45,6 +45,12 @@ return CMap::mergeArray($pre_config, array(
                 ),
                 'clientScript' => array(
                     'class' => 'HClientScript',
+                    'packages'=>array(
+                        'jquery'=>array(
+                            'baseUrl'=>'http://ajax.googleapis.com/ajax/libs/jquery/',
+                            'js'=>array('2.1.4/jquery.min.js'),
+                        )
+                    ),
                 ),
                 'themeManager' => array(
                     'themeClass' => 'HTheme',
